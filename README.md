@@ -1,9 +1,10 @@
 # CoffeeMachine_OOP
 
-**## The requirements for the program are same as in previous coffee machine code but here I just learn Object Oriented Programming(OOP). With the help of OOP, I coded coffee machine program again. **
+## The requirements for the program are same as in previous coffee machine code but here I just learn Object Oriented Programming(OOP). With the help of OOP, I coded coffee machine program again. 
 
+### Documentation of Classes 
 
-###MenuItem Class
+### MenuItem Class
 
 Attributes:
 - name
@@ -16,7 +17,7 @@ Attributes:
   (dictionary) The ingredients and amounts required to make the drink.
   e.g. {“water”: 100, “coffee”: 16}
 
-###Menu Class
+### Menu Class
 
 Methods:
 - get_items()
@@ -27,7 +28,7 @@ Methods:
   Searches the menu for a particular drink by name. Returns a MenuItem object if it exists,
   otherwise returns None.
 
-###CoffeeMaker Class
+### CoffeeMaker Class
 
 Methods:
 - report()
@@ -45,7 +46,7 @@ Methods:
   Parameter order: (MenuItem) The MenuItem object to make.
   Deducts the required ingredients from the resources.
 
-###MoneyMachine Class
+### MoneyMachine Class
 
 Methods:
 - report()
